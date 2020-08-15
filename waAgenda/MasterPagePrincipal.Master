@@ -19,10 +19,10 @@
                 <DynamicMenuStyle BackColor="#F7F6F3" />
                 <DynamicSelectedStyle BackColor="#5D7B9D" />
                 <Items>
-                    <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/index.aspx"></asp:MenuItem>
-                    <asp:MenuItem NavigateUrl="~/usuarios.aspx" Text="Usuario" Value="Usuario"></asp:MenuItem>
-                    <asp:MenuItem Text="Contato" Value="Contato"></asp:MenuItem>
-                    <asp:MenuItem Text="Sair" Value="Sair"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/index.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                    <asp:MenuItem Text="Usuario" Value="Usuario" NavigateUrl="~/usuarios.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Contato" Value="Contato" NavigateUrl="~/contatos.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Sair" Value="Sair" NavigateUrl="~/login.aspx"></asp:MenuItem>
                 </Items>
                 <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
                 <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />

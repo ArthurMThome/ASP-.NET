@@ -71,18 +71,34 @@
     <Content Include="App_Data\BancoDeDadasAgenda_log.ldf">
       <DependentUpon>BancoDeDadasAgenda.mdf</DependentUpon>
     </Content>
+    <Content Include="contatos.aspx" />
     <Content Include="Imagens\agenda.png" />
     <Content Include="index.aspx" />
+    <Content Include="login.aspx" />
     <Content Include="usuarios.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="contatos.aspx.cs">
+      <DependentUpon>contatos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contatos.aspx.designer.cs">
+      <DependentUpon>contatos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPagePrincipal.Master.cs">
       <DependentUpon>MasterPagePrincipal.Master</DependentUpon>

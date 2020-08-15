@@ -55,7 +55,8 @@ namespace waAgenda
             if ( e.Exception != null )
             {
                 //lbMessage.Text = e.Exception.Message;
-                lbMessage.Text = "Campo 'email' ja existe ou existe algum campo em branco.";
+                //lbMessage.Text = "Campo 'email' ja existe ou existe algum campo em branco.";
+                Response.Write ( "<script> alert ( 'Campo 'email' ja existe ou existe algum campo em branco.' ); </script>" );
                 e.ExceptionHandled = true;
             }
         }
